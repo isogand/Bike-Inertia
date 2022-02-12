@@ -21,8 +21,8 @@ giving you flexible tools to confidently cast your ideas <a href="https://react-
 <h1> A demo application to illustrate how Inertia.js works.<h1>
  </br>
 
-![](https://i.ibb.co/9cJM2tC/Screenshot-from-2022-02-06-15-21-13.png)
-![](https://i.ibb.co/vsMkBjr/Screenshot-from-2022-02-07-11-44-01.png)
+![](https://usaupload.com/5UO1/2022-02-12_08-42-35.gif)
+
 
     
  
