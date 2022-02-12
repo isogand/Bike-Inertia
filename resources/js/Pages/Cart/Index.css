@@ -1,0 +1,70 @@
+.actions button {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 0.5rem;
+    padding: 0.15rem 1rem;
+    color: white;
+    border-radius: 15px;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #6c77b6;
+    color: white;
+    transform: scale(1.20);
+}
+.size-bottom {
+    border: 1.5px solid #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    width:  70px;
+    height: 70px;
+    background-color: #e5e5e5;
+    text-align: center;
+
+}
+.size-bottom:active,
+.size-bottom:hover{
+    background-color: #C4C4C4;
+    border: 2px solid #000000;
+    transform: scale(1.10);
+}
+.wheel-left {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:440px;
+    left: 50px;
+}
+.wheel-right {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:440px;
+    left: 310px;
+}
+.chair {
+    position: absolute;
+    width: 400px;
+    top: 330px;
+    left: 65px;
+}
+.saddle {
+    position: absolute;
+    top: 325px;
+    width: 400px;
+    left: 65px;
+}
+.description {
+    position: absolute;
+    top: 45px;
+    border:3px solid #000000 ;
+    left: 950px;
+}
+.des_cription {
+    position: absolute;
+    top: 45px;
+    left: 950px;
+}

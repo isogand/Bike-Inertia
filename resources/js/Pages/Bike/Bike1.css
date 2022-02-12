@@ -1,0 +1,65 @@
+svg {
+    max-width: 100%;
+}
+
+.wheel-rotation {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: rotateWheel 5s linear infinite;
+}
+
+@keyframes rotateWheel {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+
+    }
+}
+
+.class {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+
+}
+.whee1{
+    position: absolute;
+    Width :140px;
+    Height :140px;
+    Top :115px;
+    Left :265px;
+    /* Blend :Pass through; */
+}
+.whee2 {
+    position: absolute;
+    Width :140px;
+    Height :140px;
+    Top :115px;
+    Left :-5px;
+    z-index: -1;
+}
+.physical1 {
+    position: absolute;
+    Width :350px;
+    Height :250px;
+    /*Top :500px;*/
+    /*Left :150px;*/
+}
+
+.chair {
+    position: absolute;
+    Width :500px;
+    Height :310px;
+    /*Top :425px;*/
+    Left :10px;
+}
+.farman {
+    position: absolute;
+    Width :500px;
+    Height :310.2px;
+    /*Top :259px;*/
+    Left :2px;
+}

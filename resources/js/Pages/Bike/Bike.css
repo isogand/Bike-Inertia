@@ -1,0 +1,80 @@
+svg {
+    max-width: 100%;
+}
+
+.wheel-rotation {
+
+    transform-box: fill-box;
+    animation: rotateWheel 2s linear infinite;
+
+}
+
+@keyframes rotateWheel {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+
+    }
+}
+/*// className="className"*/
+.class {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+
+}
+.wheel1{
+    top:120px;
+    left: 235px;
+    position: absolute;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: rotateWheel 2s linear infinite;
+
+    /* Blend :Pass through; */
+}
+.wheel2 {
+    top:125px;
+    left: 10px;
+    position: absolute;
+    /*z-index: -1;*/
+    transform-box: fill-box;
+    animation: rotateWheel 2s linear infinite;
+
+}
+.physical {
+    /*position: absolute;*/
+    /*Width :400px;*/
+    /*Height :250px;*/
+    /*Top :-15px;*/
+    /*Left :20px;*/
+}
+.physical2 {
+    position: absolute;
+    /*Width :340px;*/
+    /*Height :300px;*/
+    Top :-15px;
+    Left :-5px;
+}
+.physical5 {
+    position: absolute;
+    /*Width :400px;*/
+    /*Height :250px;*/
+    Top :-15px;
+    Left :-5px;
+}
+
+.chair {
+    left: 1px;
+    position: absolute;
+    top:565px;
+}
+.farman {
+    position: absolute;
+    top:875px;
+    left: 1px;
+
+}

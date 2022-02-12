@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(/image/bg1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat',sans-serif;
+}
+.disc {
+    padding-top: 500px;
+    padding-left: 400px;
+}
+.container{
+    content: '';
+    margin: 0 auto;
+    position: relative;
+    width: 410px;
+    padding: 30px 50px;
+    background: #FFF;
+    text-align: center;
+    border: dashed;
+    animation: ping;
+}
+.ram {
+    border-color: #7b14c2;
+    margin: 0 auto;
+    width: 410px;
+    height: 600px;
+    background-color: white;
+    -webkit-border-radius: 100px 0px 0px 100px;
+    -moz-border-radius: 100px 0px 0px 100px;
+    border-radius: 100px 0px 0px 100px;
+    transform: translateX(-100%);
+    border-right: 6px inset #481bb6;
+    -webkit-box-shadow: inset 2px 2px 2px 2px #481bb6, inset 11px 11px 2px 0px #6f21ce, inset 20px 20px 2px 1px #a328ea ,5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: inset 2px 2px 2px 2px #481bb6, inset 11px 11px 2px 0px #6f21ce, inset 20px 20px 2px 1px #a328ea ,5px 5px 15px 5px rgba(0,0,0,0);
+}
+.rar {
+    background-image: url(/image/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px 100px 100px 0px;
+    -moz-border-radius: 0px 100px 100px 0px;
+    border-radius: 0px 100px 100px 0px;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    transform: translateX(100%);
+    transform: translateY(-100%);
+}
+.text {
+    color: transparent;
+    background: rgba(65, 27, 117, 0.7);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(228, 5, 234, 0.7);
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 34px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .body{
+        background-size: cover;
+    }
+    /*.disc {*/
+    /*    padding-top: -500px;*/
+    /*    padding-left: -400px;*/
+    /*}*/
+    .ram {
+        margin-right: 40%;
+        width: 400px;
+        height: 100%;
+        bottom: 500px;
+    }
+    .rar {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+    .body{
+        background-size: cover;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-size: cover;
+    }
+
+
+}

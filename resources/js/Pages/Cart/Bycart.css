@@ -1,0 +1,22 @@
+.middlee {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+}
+
+.btnn {
+    padding: 15px;
+    text-align: center;
+    background: #c9bca8;
+    margin: 10px;
+    border-radius: 25%;
+    box-shadow: 0 5px 15px -5px #131313;
+    overflow: hidden;
+    position: relative;
+}
+
+.btnn i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
