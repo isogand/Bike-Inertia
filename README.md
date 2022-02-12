@@ -22,7 +22,7 @@ giving you flexible tools to confidently cast your ideas <a href="https://react-
  </br>
 
 ![](https://usaupload.com/5UO1/2022-02-12_08-42-35.gif)
-    <img src="https://cloud-ex42.usaupload.com/cache/plugins/filepreviewer/410005/efa6c55ece5368ce70e8bf8640425afd4b15f4c0030d8225c82049db0a252084/180x150_cropped.gif" width=180/>
+    <img src="https://cloud-ex42.usaupload.com/cache/plugins/filepreviewer/410005/efa6c55ece5368ce70e8bf8640425afd4b15f4c0030d8225c82049db0a252084/180x150_cropped.gif" width=100%/>
 
 
     
